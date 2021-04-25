@@ -25,7 +25,7 @@ SECRET_KEY = '46zb)=^lp1&5$0*+qrwhhypejo1=3214nl%b07iz_7g9nd99s*'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = False
 
-ALLOWED_HOSTS = ['127.0.0.1']
+ALLOWED_HOSTS = ['127.0.0.1','cipherhub.herokuapp.com']
 
 
 # Application definition
@@ -119,4 +119,4 @@ USE_TZ = True
 # Static files (CSS, JavaScript, Images)
 # https://docs.djangoproject.com/en/3.1/howto/static-files/
 
-STATIC_URL = '/static/'
+# STATIC_URL = '/static/'
